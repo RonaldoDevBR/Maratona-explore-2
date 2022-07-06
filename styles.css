@@ -1,102 +1,52 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-html {
---bg-color: #EDF2FF;
---text-color: #00082F;
---primary-color: #4263EB;
---primary-color-dark: #364FC7;
-}
-a {
-  text-decoration: none;
-}
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-body.dark {
---bg-color: #00082F;
---text-color: #FFFFFF;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocketlinks</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css"/>
 
-body.pink {
-  --bg-color: #FFF8F6;
-  --text-color: #1F000B;
-  --primary-color: #D6336C;
-  --primary-color-dark:#A61E40;
-}
+</head>
 
-body {
-  background: var(--bg-color);
-  color: var(--text-color);
-  font-family: 'Roboto', sans-serif;
-}
+<body class="pink">
 
-.container {
-  text-align: center;
-  width: 300px;
-  margin: 60px auto;
+<div class="container">
 
-}
-img {
-  width: 100%;
-}
+  <img 
+  class="avatar"
+  src="https://github.com/RonaldoDevBR.png" 
+  alt="Image do RonaldoDevBr"/>
+  <h1>Ronaldo R. Assunção</h1>
+  <p class="username">@RonaldoDevBr</p>
 
-img.avatar {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  padding: 3.7px;
-  border: var(--primary-color) solid 4px;
-}
+  <ul>
+    <li>
+      <a href="https://github.com/RonaldoDevBR/Maratona-explore-2.git" 
+      target="_blank">🏵️Curso de programação (gratuito)</a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/c/assunvania" 
+      target="_blank">📹youtube</a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/ronaldo.ribeiro.5811877/" target="_blank">📷Instagram</a>
+    </li>
+    <li>
+      <a href="https://twitter.com/RIBEIROASSUNCAO" 
+      target="_blank">🐤twitter</a>
+    </li>
+    <li>
+      <a href="https://github.com/RonaldoDevBR" 
+      target="_blank">🐱github</a>
+    </li>
+  </ul>
+  <footer>Feito com 💜 pela <a href="https://rocketseat.com.br" target="_blank"> Rocketseat</a></footer>
+  </div>
+</body>
 
-h1 {
-  font-size: 25px;
-  margin-top: 24px;
-  margin-bottom: 8px;
-}
-
-.username {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400px;
-  opacity: 0.8;
-  font-size: 18px;
-}
-
-ul {
-  list-style: none;
-  margin: 48px 0;
-}
-
-ul li a{
-  height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--primary-color);
-  color: white;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 16px;
-  border-radius: 6px;
-  transition: background 400ms;
-}
-
-ul li a:hover {
-  background: var(--primary-color-dark);
-}
-
-footer {
-  font-weight: 500;
-  font-size: 12px;
-  opacity: 0.6;
-  transition: opacity 400ms;
-}
-
-footer: :hover {
-  opacity: 1;
-}
-
-footer a{
- color: var(--text-color);
-}
+</html>
